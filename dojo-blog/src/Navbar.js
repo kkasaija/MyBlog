@@ -1,13 +1,13 @@
 const Navbar = () => {
-  return (
+  return ( 
     <nav className="navbar">
-      <h1>The Dojo Blog</h1>
+      <h2>Kenneth Blog</h2>
       <div className="links">
         <a href="/">Home</a>
-        <a href="/create">New Blog</a>
+        <a href="/create">Create</a>
       </div>
     </nav>
-  );
+   );
 }
  
 export default Navbar;
